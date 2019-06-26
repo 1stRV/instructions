@@ -1,0 +1,53 @@
+*ctrl+shift+u
+uppercase
+
+*fori
+for (int i = 0; i < ; i++) {}   
+
+*alt+insert
+generate constructor, setter, overide
+
+*PSVM 
+public static void main
+
+*SOUT 
+system.out.println
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ctr + Alt + V	Выделение переменной
+Ctrl+w                                                                                            Выделение слова
+Shift+F10                                                                       Run project
+Ctrl +/                                                                       закомментировать
+Alt+Insert                                                                сгенерировать
+Ctrl+Alt+I                                                                  выровнять
+Ctrl+T
+Ctrl+Shift+T                                                                создать тест
+Ctrl+F8                                                                      поставить breakpoint
+Shift +вниз                                                                     выделить всю строку
+Ctrl+ Alt +Shift +s                                                                     открыть project structure
+Ctrl+alt+d
+Ctrl+alt+стрелочки в бок
+Ctrl+Y
+Ctrl+стрелка вверх
+Ctrl+Shift+стрелка вверх вниз  перепрыгивать строчки
+Ctrl+Alt+V               завести переменную
+ctrl+E       собрать Gradle, Maven, Spring
+shift+F6 переименовать фалй
+ctrrl+R          изменить одинаковый текст в овсем файле
+ctrl+Alt+V         сгенерить Класс
+ctrrl+shift+F       поиск по всем файлам
+Shift + Shift -
+Alt+1                                                                   

@@ -1,0 +1,119 @@
+Запустить на WinDows 
+1)скачать Docker Toolbox
+2)запустить файл start.sh b и закрыть консоль докера
+3)открыть стандартную консоль cmd туда вводить команды
+
+docker-compose up
+
+Docker-файл compose 
+инструкция по созданию образа с конфигурацией, дает запустить одновременно несколько контейнеров, в нем учтены сразу все сервисы, для приложения.
+https://docker.crank.ru/docs/docker-compose/getting-started/
+
+*Создать контейнер
+docker run --name MyContainer -i -t ubuntu bin/bash
+Тогда скачается с Docker-hub образ.Создается и запускается новый контейнер с ОС ubuntu и переходит в терминал внтури контейнера:
+
+появляется строка с сгенерированным айдишником хостнэймом(CONTAINER ID) и рут права root@451: 
+
+В терминале чтобы вставить скопированное нужно нажать правый клик
+
+Команды:
+ls показать список папок
+cd bin перейти в папку bin
+ls список приложений на ОС ubuntu
+exit выход из контейнера и переход на свою ОС
+
+docker ps -a
+выводит список всех контейнеров:
+
+CONTAINER ID   IMAGE(имя образа)   COMMAND   CREATED(когда создан) 
+  451           ubuntu             bin/bash       2min ago
+  
+STATUS  PORTS(открытые порты на контейнере)   NAMES(имя контейнера)
+Exited                                             MyContainer
+ 
+docker ps -l
+выводит последний запущенный контейнер
+
+docker start MyContainer
+docker stop MyContainer
+запуcтить, остановить существующий контейнер
+
+docker attach MyContainer
+перейти в терминал внутри контейнера
+ 
+docker rm MyContainer
+удалить контейнер  
+Перед удалением контейнера его надо остановить
+
+docker rm -a -q
+удалить все контейнеры
+
+
+
+
+*dockerDemon
+
+docker run --name MyDemon -d ubuntu bin/bash -с do echo hello world 
+параметр -d создает контейнер-демон и запускает его
+
+docker logs -f MyDemon
+подсоединиться к контейнеру-демону показать что происходит в консоли там будет  hello world 
+
+docker logs --tail 10 -t MyDemon
+показать какие процессы сейчас запущены в контейнере
+
+docker start stop
+запуcтить, остановить существующий контейнер
+
+      
+	  
+	    
+Создавать образы можно двумя способами:
+
+1)*Скачать Образ и запустить контейнер
+docker run --name MyContainer(имя нового контейнера) -i -t ubuntu bin/bash
+
+*Внутри ubuntu установить приложение (например текстовый редактор vim)
+apt -get update
+apt -get install -y vim
+
+*Создать Образ на основе контейнера и закомитить его 
+docker commit MyContainer(имя этого контейнера) MyImage(имя образа который создаю)
+
+*Теперь можно скачать этот Образ и на его основе создать контейнер
+docker run --name MyContainer2(имя нового контейнера) -i -t MyImage bin/bash
+
+2)Создать Docker-файл
+touch Dockerfile
+
+
+Внутри Docker-файла:
+
+FROM ubuntu
+на основе какого образа собрать контейнер
+
+RUN apt -get update
+ RUN -get install -y vim
+какие приложения установить 
+
+
+
+
+******Cоздать образ по Docker-файлу указываем cd в какой папке лежит Docker-файл
+docker build -f MyDockerfile -t myimage .
+
+*******Запустить контейнер из этого образа
+docker run -p 8080:8080 -t myimage
+
+
+
+
+*Cписок Образов на текущей машине
+docker images
+
+REPOSITORY    TAG       IMAGE ID      CREATED       SIZE
+  ubuntu     latest      cs232        2min ago      120MB
+
+
+Команды Docker-файла:

@@ -1,0 +1,16 @@
+Официальная:
+Spring
+https://spring.io/
+
+Spring tutorials
+https://www.baeldung.com/
+
+Классы Java
+https://docs.oracle.com/javase/9/docs/api/allclasses-noframe.html
+
+Не Официальная:
+Аннотации для БД
+http://javastudy.ru/spring-data-jpa/annotation-persistence/
+
+Тесты
+https://jsehelper.blogspot.com/2016/01/junit.html

@@ -1,0 +1,38 @@
+Spring уроки http://spring-projects.ru/guides/
+x)проект|ветка
+.модуль|файлы
+ключевые слова
+
+1)Определение ОС
+2)Создание и копирование файла из resources в юзерскую папку
+3)Чат
+4)
+
+
+
+
+
+
+
+
+
+
+1)gosweb-search-proto|feature/normalize-test
+.common|OsDetector
+.engine|MyStemInitializer
+enum, switch,
+
+
+2)gosweb-search-proto|feature/normalize-test
+.engine|MyStemInitializer
+Input OutputStream,
+
+3)e-doctor-be|develop
+.chat-service|
+
+
+|
+.|
+
+
+

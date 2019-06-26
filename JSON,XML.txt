@@ -1,0 +1,19 @@
+1)POJO-JSON plugin IDE: Json2Pojo with Lombok
+2)POJO-JSON менять поля https://jsoneditoronline.org/
+3)XML-JSON http://www.utilities-online.info/xmltojson/#.XIt6FygzZUQ
+
+1)
+@XmlAccessorType(XmlAccessType.NONE)
+без /
+@XmlAccessorType(XmlAccessType.FIELD)
+чтобы была / в конце строки 
+<Images url="http://img.test.ru/8F7B-4A4F3A0F2BA1.jpg"/ВОТ ОНА>
+
+@XmlRootElement(name = "Images")
+@XmlElement(name = "Image")
+
+6)
+@XmlAttribute(name = "formatVersion", required = true)
+    protected String formatVersion;
+	
+	

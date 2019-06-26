@@ -1,0 +1,17 @@
+Работа с JPA и Mongo аналогичная. 
+Чтобы реализовать MongoDB нужно:
+1)Добавить зависимость spring-data-mongoDB. 
+2)Создать class @Configuration в нем например использовать mongoTemplate.dropCollection() чтобы после каждого перезапуска приложения очищалась БД
+3)Затем создать интерфейс Repository extends MongoRepository<MyCollection,String> в фигур скобках указать название коллекции и Mongo автоматически создаст в БД эту коллекцию в виде документа с идентификатором. 
+4)И в файле yaml прописывать подключение к БД
+
+
+*MongoDB Shell консоль-внутри IDEA, чтоб она работала надо указать путь к файлу mongod.exe
+*Mongo Explorer-панель в IDEA
+https://docs.mongodb.com/manual/reference/mongo-shell/
+help-список команд 
+db.help()-список команд c БД
+
+*Чтобы работали запросы надо переустановить монго, тогда связь с сервером будет установлена автоматически при запуске сервиса, нужно прописать для этого переменные в edit config
+
+*Чтобы после каждого теста очищалась БД надо в @BeforeEach initData() добавляешь mongoDbFactory.getDb().drop();mongoDbFactory.getDb().drop();

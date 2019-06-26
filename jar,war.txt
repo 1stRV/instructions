@@ -1,0 +1,33 @@
+*Jar 
+сгенерить JAR-файл и файл манифеста:
+
+1)cmd windows
+cd C:\Users\Roman\Desktop\test\out\production\test
+"C:\Program Files\Java\jdk-9.0.1\bin\jar.exe" -cf com.examle.demo/*.class
+jar cf jar-файл входной-файл(ы)
+
+Аргумент входной-файл(ы)
+список с разделителем-пробелом из одного или более файлов, которые вы хотите поместить в ваш JAR-файл. Аргумент входной-файл(ы) может содержать также символ-джокер *. Если любые из "входных-файлов" являются каталогами, содержимое этих каталогов рекурсивно добавляется в архив JAR.
+
+jar cvf  MyJar.jar Main.class
+HelloWorld.class
+
+jar cf MyJar.jar Main.class
+
+2)IDE:
+Project Structure/Artifacts/+JAR from Module dependeces/указать Module:папку всего проекта/Main.class/Manifest указать С:\Users\IdeaProjects\MyProject\src\кнопка extract to the target JAR
+наверху Build Artifacts/build
+Тогда создается out/artifacts/MyClass.jar
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=NtFQS4kRgCs
+https://ru.m.wikipedia.org/wiki/SSH
+https://www.ibm.com/developerworks/ru/library/d-continuous-delivery-framework-jenkins/index.html

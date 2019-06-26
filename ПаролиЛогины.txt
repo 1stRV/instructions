@@ -1,0 +1,160 @@
+1)IDEA Среда разработки
+2)JIRA  управление проектами
+3)Bitbucket git репо
+4)WorldClient рабочая почта
+5)Kpoint Контроль времени работы
+6)Stride меседжер
+7)Confluence Документация
+8)appear.in разговор 
+9)AWS (Amazon web service) Облако
+10) liquibase модуль миграций
+11) OK API
+12)trello
+13) POJO tool в браузере
+14)Listick Заметки
+15)Github git репо
+16)VPN 
+17)Wavea git репо
+18)docker 
+19)aiidbox
+20)microsoft
+21)Mongo DB
+*22)почта,гугл диск rvfirstov@gmail.com
+*23)почта,яндекс диск firstov-roma0@yandex.ru
+
+#AD
+roman.firstov@waveaccess.ru
+3H38q6wA9Z
+
+#Kpoint
+http://pm.wavea.cc
+waveaccess\roman.firstov
+3H38q6wA9Z
+
+#Mail
+pop3/imap/smtp - http://pm.wavea.cc
+roman.firstov@waveaccess.ru
+3H38q6wA9Z2
+#Jira, Confluence, Bitbucket - see invitations in the email roman.firstov@waveaccess.ru 
+1)Среда разработки IDEA
+Удалить все галки/устангалка desktop и download jetnrain/
+По папке Crack /запуск evaluate30 / плагин, sdk1.8,tomcat
+ClientTool
+Debug
+Docker
+Spring
+VersionControl
+
+2) JIRA  управление  проектами                              
+roman.firstov@waveaccess.ru
+tco08+jira
+Учетный данные jira.egovdev.ru
+
+Логин: roman.firstov@waveaccess.ru
+Пароль: lJSomK4qJl??
+
+Логин: volha.valasiuk@waveaccess.ru
+Пароль: PQ4uct2djh
+
+работает:
+Логин: roman.firstov@waveaccess.ru
+Пароль: lJSomK4qJl
+
+3) Bitbucket контроль версий
+roman.firstov@waveaccess.ru
+tco08+jira
+4) WorldClient почта
+pop3/imap/smtp - mail.waveaccess.ru
+roman.firstov@waveaccess.ru
+3H38q6wA9Z2
+5) Kpoint 
+Контроль времени работы
+http://pm.wavea.cc
+waveaccess\roman.firstov
+3H38q6wA9Z
+6) Stride меседжер
+roman.firstov@waveaccess.ru
+tco08+jira
+7)Confluence
+roman.firstov@waveaccess.ru
+tco08+jira
+egovdev
+Логин: volha.valasiuk@waveaccess.ru
+Пароль: PQ4uct2djh
+8) appear.in разговор 
+https://appear.in/mkanev
+firstov-roma0@yandex.ru
+726941 
+9) AWS (Amazon web service) Облако
+Username: roman.firstov
+Password: xNIDd_1eraJjt2II[tco08+aws 
+Access Key: AKIAILFR2P3FKHF7UQIQ
+Secret Key: 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
+10) liquibase модуль миграций
+С БД PostgreSQL и H2
+11) OK 
+firstov-roma0@yandex.ru
+tco04+ok
+приложение test 
+Application ID: 1265937664.
+Публичный ключ приложения: CBAOKFHMEBABABABA.
+Секретный ключ приложения: 34F109E464FABD4DE3EFAFF3.
+Ссылка на приложение: https://ok.ru/game/1265937664
+https://localhost:8443/user/getCurrentFIO
+12)trello
+общая firstov-roma0@yandex tco08+trello
+личная firstov-roma0@mail tco08+trello
+13)В браузере POJO tool: http://pojo.sodhanalibrary.com/
+14)Listick Заметки
+firstov-roma0@yandex.ru
+tco08+listick
+15)
+Github Все подряд
+1stRV
+tco06+github
+
+Github Рабочий код
+blackroman1991@mail.ru
+FRV2018
+tco08+github
+
+16)
+VPN
+ZenMate прога
+roman.shakhov@gmail.com
+Pass@word1
+
+
+Инструкция по настройке и клиент находятся по ссылке https://yadi.sk/d/bZVmSOydccKyd
+Логин \ пароль
+roman.firstov@waveaccess.ru
+0FnkZWfjrfq
+ 
+ключ
+er_ipsec
+E#0IF[mWzNl(F~IAxTdRSiuMJz)~*@f2oHQ3#iwT~uwPKOUS6Cqc0TLTWX6~xDCoR0cGLZYrS9oVlCs*YF02RJBXkQH*tJF@2*(c
+
+17)
+http://git.wavea.cc/
+репозитории 
+roman.firstov@waveaccess.ru
+3H38q6wA9Z2
+18)
+6765874234 /tco07+docker/frvable@gmail.com
+19)
+rvfirstov@gmail.com/tco06+aiidbox
+20)microsoft
+firstov-roma0@mail.ru
+tco06+microsoft
+
+21)Mongo DB
+firstov-roma0@yandex
+tco08+mongodb
+
+22)
+rvfirstov@gmail.com
+tco07+gmail
+
+23)
+firstov-roma0@yandex.ru
+tco03+yandex
